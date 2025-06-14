@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>FPT University - Students Detail</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    .top-bar {
+      background-color: #ec9122;
+      padding: 10px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .top-bar img {
+      height: 60px;
+    }
+    .nav-links {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+    }
+    .search-box input {
+      padding: 4px;
+    }
+    .banner {
+      width: 100%;
+      height: auto;
+    }
+    .breadcrumb {
+      margin: 20px;
+    }
+    .student-card {
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+      border-radius: 5px;
+      padding: 10px;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .student-card img {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+      border-radius: 5px;
+    }
+    .footer {
+      background-color: #ec9122;
+      color: white;
+      padding: 20px;
+    }
+    .footer a {
+      color: white;
+      margin-right: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <div class="top-bar">
+    <div class="d-flex align-items-center">
+      <img src="data:image/png;base64,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" alt="Logo">
+      <div class="nav-links ms-3">
+        <a href="#">Trang chủ</a>
+        <a href="#">Ngành học</a>
+        <a href="#">Tuyển sinh</a>
+        <a href="#">Sinh viên</a>
+      </div>
+    </div>
+    <div class="search-box">
+      <label>Search: <input type="text" /></label>
+    </div>
+  </div>
+
+  <!-- Banner -->
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzAwAxOhvXqLfihuHsmaVaguZec1imuuwGaQ&s" alt="Students" class="banner">
+
+  <!-- Breadcrumb -->
+  <nav class="breadcrumb">
+    <a class="breadcrumb-item text-muted" href="#">Home</a>
+    <span class="breadcrumb-item active">Students</span>
+  </nav>
+
+  <!-- Students Section -->
+  <div class="container mb-5">
+    <h3 class="text-center mb-4">Students Detail</h3>
+    <div class="row">
+      <!-- Student Card -->
+      <div class="col-md-3">
+        <div class="student-card">
+          <img src="Long.jpg" alt="Student">
+          <p><strong>DE160182</strong></p>
+          <p>Nguyễn Văn Hoàng Long</p>
+          <p>Đà Nẵng</p>
+          <div>
+            <label><input type="radio" name="s1"> Absent</label>
+            <label><input type="radio" name="s1"> Present</label>
+          </div>
+          <button class="btn btn-warning btn-sm mt-2">Submit</button>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="student-card">
+          <img src="Huy.jpg" alt="Student">
+          <p><strong>DE160377</strong></p>
+          <p>Lê Tự Thanh Huy</p>
+          <p>Huế</p>
+          <div>
+            <label><input type="radio" name="s2"> Absent</label>
+            <label><input type="radio" name="s2"> Present</label>
+          </div>
+          <button class="btn btn-warning btn-sm mt-2">Submit</button>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="student-card">
+          <img src="Hoang.jpg" alt="Student">
+          <p><strong>DE160547</strong></p>
+          <p>Lê Văn Hoàng</p>
+          <p>Quảng Trị</p>
+          <div>
+            <label><input type="radio" name="s3"> Absent</label>
+            <label><input type="radio" name="s3"> Present</label>
+          </div>
+          <button class="btn btn-warning btn-sm mt-2">Submit</button>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="student-card">
+          <img src="Lam.jpg" alt="Student">
+          <p><strong>DE180591</strong></p>
+          <p>Lê Phước Phú Lâm</p>
+          <p>TP Huế</p>
+          <div>
+            <label><input type="radio" name="s4"> Absent</label>
+            <label><input type="radio" name="s4"> Present</label>
+          </div>
+          <button class="btn btn-warning btn-sm mt-2">Submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="footer">
+    <div class="container d-flex flex-column flex-md-row justify-content-between">
+      <div>
+        <h6>Our Address</h6>
+        <p>Khu đô thị FPT Đà Nẵng<br>
+          ☎ 0236 3517 111<br>
+          📞 0236 6266 412<br>
+          📧 daihocfpt@fpt.edu.vn</p>
+      </div>
+      <div class="align-self-center">
+        <div class="mb-2">
+          <a href="#">G+</a>
+          <a href="#">F</a>
+          <a href="#">in</a>
+          <a href="#">🐦</a>
+          <a href="#">🎓</a>
+          <a href="#">✉</a>
+        </div>
+        <p>© Copyright 2023</p>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
