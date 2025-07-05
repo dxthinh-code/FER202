@@ -1,0 +1,76 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "Hello World",
+      "content": "This is a test post"
+    },
+    {
+      "id": "2",
+      "title": "Introduction to JSON",
+      "content": "JSON (JavaScript Object Notation) is a lightweight data-interchange format."
+    },
+    {
+      "id": "3",
+      "title": "Getting Started with Node.js",
+      "content": "Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine."
+    },
+    {
+      "id": "4",
+      "title": "Understanding RESTful APIs",
+      "content": "REST (Representational State Transfer) is an architectural style for distributed hypermedia systems."
+    },
+    {
+      "id": "5",
+      "title": "Exploring JavaScript ES6 Features",
+      "content": "ES6 introduces several new features to JavaScript, such as arrow functions and promises."
+    },
+    {
+      "id": "6",
+      "title": "Web Development Trends in 2025",
+      "content": "In 2025, modern web development will continue evolving with technologies like WebAssembly and serverless architecture."
+    },
+    {
+      "title": "Nguy quân tử",
+      "content": "\"Ngụy quân tử\" là một cụm từ dùng để chỉ những người có vẻ ngoài đạo đức, nhân nghĩa, nhưng thực chất lại là những người giả dối, không trung thực, và có thể làm những việc xấu xa, trái với đạo lý để đạt được mục đích cá nhân. Hiểu đơn giản, đó là những người \"nói một đằng, làm một nẻo\". \nGiải thích chi tiết:\nBề ngoài:\nHọ thường tỏ ra là người tốt bụng, đạo đức, có thể là người truyền bá đạo lý, nhưng thực chất bên trong lại chứa đựng những suy nghĩ, hành động xấu xa, vụ lợi. \nHành động:\nHọ có thể làm những việc trái với đạo đức, nhưng luôn tìm cách che giấu, biện minh cho hành động của mình. \nMục đích:\nMục đích cuối cùng của \"ngụy quân tử\" là đạt được lợi ích cho bản thân, bất chấp thủ đoạn, thậm chí có thể làm hại người khác. \nKhác biệt với chân tiểu nhân:\nTrong khi \"chân tiểu nhân\" là những người rõ ràng thể hiện bản chất xấu xa của mình thì \"ngụy quân tử\" lại che giấu bản chất thật dưới vỏ bọc đạo đức. ",
+      "id": "a20a"
+    }
+  ],
+  "useraccounts": [
+    {
+      "id": "1",
+      "username": "Dũ",
+      "email": "nhhvu@example.com",
+      "password": "password123",
+      "avatar": "/images/du.jpg"
+    },
+    {
+      "id": "2",
+      "username": "Hoàng",
+      "email": "hoangle@example.com",
+      "password": "password456",
+      "avatar": "/images/Hoang.jpg"
+    },
+    {
+      "id": "3",
+      "username": "Huy",
+      "email": "giahuy@example.com",
+      "password": "password789",
+      "avatar": "/images/Huy.jpg"
+    },
+    {
+      "id": "4",
+      "username": "Lâm",
+      "email": "chubby@example.com",
+      "password": "password101",
+      "avatar": "/images/Lam.jpg"
+    },
+    {
+      "id": "5",
+      "username": "Long mộng gà",
+      "email": "longmongga@example.com",
+      "password": "password202",
+      "avatar": "/images/Long.jpg"
+    }
+  ]
+}
