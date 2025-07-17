@@ -1,0 +1,22 @@
+.home-wrapper {
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.home-carousel {
+  max-height: 80vh;        /* Chiếm khoảng 80% chiều cao màn */
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.carousel-img {
+  height: 70vh;            /* Đảm bảo hình chiếm đủ chiều cao */
+  object-fit: cover;
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 1rem;
+  border-radius: 10px;
+}
