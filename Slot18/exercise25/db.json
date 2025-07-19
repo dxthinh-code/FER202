@@ -1,0 +1,100 @@
+{
+  "products": [
+    {
+      "id": "p1",
+      "name": "Dell XPS 13",
+      "price": 999,
+      "description": "Lightweight and powerful.",
+      "catalogs": [
+        "Laptop",
+        "Ultrabook"
+      ],
+      "image": "https://www.windowscentral.com/sites/wpcentral.com/files/styles/larger_wm_brb/public/field/image/2016/12/dell-xps-13-hero.jpg?itok=PcpkH19l"
+    },
+    {
+      "id": "p2",
+      "name": "Apple MacBook Pro",
+      "price": 2499,
+      "description": "Professional performance.",
+      "catalogs": [
+        "Laptop",
+        "Ultrabook"
+      ],
+      "image": "https://laptopmedia.com/wp-content/uploads/2017/06/macbook_pro_13_a_1143_0_0.jpg"
+    },
+    {
+      "id": "p3",
+      "name": "HP Omen 16",
+      "price": 1799,
+      "description": "Gaming performance beast.",
+      "catalogs": [
+        "Laptop",
+        "Gaming"
+      ],
+      "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6536/6536973_sd.jpg"
+    },
+    {
+      "id": "p4",
+      "name": "Asus ROG Zephyrus",
+      "price": 2099,
+      "description": "Portable gaming machine.",
+      "catalogs": [
+        "Gaming"
+      ],
+      "image": "https://www.overclockers.ua/news/mobile/126575-rog-zephyrus-duo-2.jpg"
+    },
+    {
+      "id": "p5",
+      "name": "Lenovo Legion 5",
+      "price": 1599,
+      "description": "Powerful mid-range gaming.",
+      "catalogs": [
+        "Gaming",
+        "Laptop"
+      ],
+      "image": "https://cdn1.smartprix.com/rx-iT66Lho1n-w1200-h1200/T66Lho1n.jpg"
+    },
+    {
+      "id": "p6",
+      "name": "MSI Stealth 15",
+      "price": 1899,
+      "description": "Slim & fast gaming laptop.",
+      "catalogs": [
+        "Gaming"
+      ],
+      "image": "https://storage-asset.msi.com/global/picture/image/feature/nb/Stealth/Stealth15M-B12U/kv_slide-model-3.png"
+    },
+    {
+      "id": "p7",
+      "name": "Acer Aspire 5",
+      "price": 699,
+      "description": "Affordable everyday laptop.",
+      "catalogs": [
+        "Laptop"
+      ],
+      "image": "https://i0.wp.com/laptopmedia.com/wp-content/uploads/2020/03/1.png?fit=1966%2C1487&ssl=1"
+    },
+    {
+      "id": "p8",
+      "name": "Huawei MateBook X",
+      "price": 1399,
+      "description": "Elegant ultrabook.",
+      "catalogs": [
+        "Laptop",
+        "Ultrabook"
+      ],
+      "image": "https://www.notebookcheck.com/fileadmin/_processed_/0/e/csm_MateBook_X_Pro_Green_SpecialAngle_Right_Front_RGB_6209a64a9f.jpg"
+    },
+    {
+      "id": "p9",
+      "name": "Lenovo Yoga 7i",
+      "price": 1099,
+      "description": "2-in-1 convertible for work and play.",
+      "catalogs": [
+        "Laptop",
+        "Convertible"
+      ],
+      "image": "https://www.pcworld.com/wp-content/uploads/2023/08/puff-1-2.jpg?quality=50&strip=all"
+    }
+  ]
+}
